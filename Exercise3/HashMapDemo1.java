@@ -3,7 +3,7 @@ import java.util.HashMap;// UNIQUE -ONORDER
 class HashMapDemo1{
   public static void main(String[]s) {
     HashMap<String,Integer> scoreCard =new HashMap<>();
-    Employee e1 = new Employee();
+    Employee e1 = new Employee();//?
     
     scoreCard.put("steve",200);
     scoreCard.put("austin",250);
