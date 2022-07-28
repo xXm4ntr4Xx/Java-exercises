@@ -2,7 +2,8 @@ public class Employee{
   private int employeeId;
   private String employeeName;
   //if a class has NO constructor the compiler will create a deafult constructor with no params
-//empty default-constructor must be initialized. Without contructor object creation is impossible
+
+  //empty default-constructor must be initialized. Without contructor object creation is impossible
   public Employee(){
     this.employeeId = 1;
     this.employeeName = "kishore";

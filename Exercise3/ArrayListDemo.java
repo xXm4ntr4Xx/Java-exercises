@@ -5,8 +5,7 @@ public class ArrayListDemo {
   public static void main(String[]args){
     //void-> not return a value
     //main->entry/exit point(with no-main the compiler will run normally with no output but the jvm will throw an error bacuase cannot find a main method )
-    
-    Employee e1 = new Employee();
+    Employee e1 = new Employee();//?
     Employee e2 = new Employee(1,"tim");
     Employee e3 = new Employee(2,"steve");
     //empty angle brackets are called ad "Type Inference Diamond(the empty less/greater sign)"
