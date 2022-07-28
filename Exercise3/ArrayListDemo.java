@@ -20,7 +20,6 @@ public class ArrayListDemo {
     }
     System.out.println(employees);
 
-
     //fetch and object from a collection/arraylist
     System.out.println(employees.get(0));
     //remove an object from arraylist
